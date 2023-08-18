@@ -1,0 +1,101 @@
+.main-header {
+    /*justify-content: center;
+     flex-direction: row; */
+    display: flex;
+}
+
+.main-page {
+    display: flex;
+}
+
+/*
+.dark-mode{
+}
+
+.light-mode {
+}
+*/
+
+.stocks-market {
+    /* background: #222831 ; */
+    height: 30vh;
+}
+
+.crypto-page {
+    height: 30vh;
+}
+
+/* 
+Crypto light color palette :.first-color { 
+	background: #f9f5f0; 
+}
+	
+.second-color { 
+	background: #f2ead3; 
+}
+
+.third-color { 
+	background: #f4991a; 
+}
+
+.fourth-color { 
+	background: #321313; 
+} 
+*/
+
+/*
+Crypto dark mode: 
+.first-color { 
+	background: #222831; 
+}
+	
+.second-color { 
+	background: #393e46; 
+}
+
+.third-color { 
+	background: #d65a31; 
+}
+
+.fourth-color { 
+	background: #eeeeee; 
+}
+*/
+
+/*
+ Markets light mode :
+.first-color { 
+	background: #fafafa; 
+}
+	
+.second-color { 
+	background: #e1eeff; 
+}
+
+.third-color { 
+	background: #c2cfd8; 
+}
+
+.fourth-color { 
+	background: #543a3a; 
+}
+*/
+
+/*
+Market dark mode:
+.first-color { 
+	background: #363434; 
+}
+	
+.second-color { 
+	background: #5c5757; 
+}
+
+.third-color { 
+	background: #62929a; 
+}
+
+.fourth-color { 
+	background: #efecec; 
+}
+*/
