@@ -1,12 +1,24 @@
+import { useEffect, useState } from "react"
+import ArticleList from "./ArticlesList"
 
 function MainPage () {
+
+    const [articlesObj, setArticlesObj] = useState([])
+
+    console.log(articlesObj)
+
+    useEffect(()=>{
+        fetch('http://localhost:3000/Articles')
+        .then(resp => resp.json())
+        .then(data => setArticlesObj(data))
+    },[])
+
+    // const filteredArticles = articlesObj.filter(articleObj => )
 
     return (
         <div className="main-page">
             <div>
-                <h1>Bulls & Bears magazzine</h1>
-                <br />
-                <h2>Welcome to your volatile newsletter</h2>
+                <ArticleList articlesObj={articlesObj} setArticlesObj={setArticlesObj} />
             </div>
         </div>
         
