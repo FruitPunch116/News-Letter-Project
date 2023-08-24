@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 //Components
-// import Header from './components/Header' 
+/* import Header from './components/Header' */
 import Crypto from './components/Crypto';
 import Stocks from './components/Stocks';
 import MainPage from './components/MainPage';
