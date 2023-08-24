@@ -1,12 +1,52 @@
-.main-header {
-    /*justify-content: center;
-     flex-direction: row; */
-    display: flex;
+/* .App {
+	padding: 20px;
+	justify-content: center;
+} */
+
+/*.App {
+    display: grid;
+	height: 100vh;
+	width: 100vw;
+	grid-template-areas: 
+	"a1" "a2" "a3" "a4" "a5" "a6"
+	"b1" "b2" "b3" "b4" "b5" "b6"
+	"c1" "c2" "c3" "c4" "c5" "c6"
+	"d1" "d2" "d3" "d4" "d5" "d6"
+	"e1" "e2" "e3" "e4" "e5" "e6";
+	grid-template-columns: repeat(6, .25fr);
+	grid-template-rows: repeat(5, .25fr);
 }
 
-.main-page {
-    display: flex;
+.title {
+	grid-area: a5;
+}*/
+
+/* .article-card {
+	height: 65vh;
+	width: 90vw;
+	background-color: #62929a;
+} */
+
+/*.search {
+	width: 50%;
+	text-align: center;
+  
+	position: relative;
+	display: block;
+	margin: auto;
+	padding: 2rem;
 }
+
+.search-bar {
+	text-align: center;
+	width: 70%;
+	border: 3px solid #363434;
+	padding: 5px;
+	height: 2rem;
+	border-radius: 30px;
+	outline: none;
+	font-size: 1.5rem;
+}*/
 
 /*
 .dark-mode{
@@ -16,14 +56,13 @@
 }
 */
 
-.stocks-market {
-    /* background: #222831 ; */
+/*.stocks-market {
     height: 30vh;
 }
 
 .crypto-page {
     height: 30vh;
-}
+}*/
 
 /* 
 Crypto light color palette :.first-color { 
@@ -99,3 +138,36 @@ Market dark mode:
 	background: #efecec; 
 }
 */
+
+/* ----------------  -------------  ---------------- */
+
+body {
+	background-color: #1a1a1a;
+	color: #fff;
+}
+
+.header {
+	padding: 1rem;
+	background: #5c5757;
+	text-align: center;
+}
+
+.main_page {
+	padding: 2rem;
+}
+
+.article-card {
+	border: 1px solid #444;
+	padding:  1rem;
+	margin-bottom: 1rem;
+	background-color: #363434;
+}
+
+.stocks_markets {
+	background-color: #444;
+	color: #fff;
+	padding: 0.5rem 1rem;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
