@@ -1,19 +1,77 @@
 {
-  "posts": [
+  "Articles": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "id":1,
+      "title": "First Post",
+      "body": "The First post was created and this is the body of it, the post that you're reading in fact is the first post thank you for you attention.",
+      "owner": "Somebody that I used to know (in middle school).",
+      "date": "Long time ago/ 08-21-2023",
+      "likes": 0,
+      "section": "Stocks"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "The inflation and its concequences",
+      "body": "For the past five years the world economy has been decreasing the money flow, when the pandemic just kicked in our goverments started priting money to give the people some help during the hard times, because of that nowadays the inflation numbers are incereasing exponentially.",
+      "owner": "Peterson Smith",
+      "date": "03-16-2025",
+      "likes": 905,
+      "section": "Stocks"
+    },
+    {
+      "id": 3,
+      "title": "Is Bitcoin the new Dollar?",
+      "body": "In last three months people started adopting the crypto asset Bitcoin to do their day to day purchases causing a side effect on the dollar stability, every person over 37 re-think about thge crryto curency, the market capitalzation and the volume of Bitcoin went up by 15% since the everyone is isung it, but no all is just rose color, the gas fees are also skyrocketing in paralel msking the ambientalists protest agains the token.",
+      "owner": "Larry Goodman",
+      "date": "10-28-2027",
+      "likes": 3000,
+      "section": "Crypto"
+    },
+    {
+      "id": 4,
+      "title": "NNVIDIA the biggest company",
+      "body": "Since NVIDIA (NVDA) big move on creating their own micro-ship factory in Brazil the company has saved HOundres of Millions giving their investor the highest return in the markets right now, the current value of the company itself is worth two times the APPLE (AAPL) company wich had the greatest marfket cap value for the past 4 years, thee actual value of the video games giant is over the amount of five trillions with a stock price of usd$1,200 the share.",
+      "owner": "Arthur Stolomeo",
+      "date": "06-05-2029",
+      "likes": 0,
+      "section": "Stocks"
+    },
+    {
+      "id": 5,
+      "title": "",
+      "body": "",
+      "owner": "",
+      "date": "",
+      "likes": 0,
+      "section": ""
+    },
+    {
+      "id": 6,
+      "title": "",
+      "body": "",
+      "owner": "",
+      "date": "",
+      "likes": 0,
+      "section": ""
+    },
+    {
+      "id": 7,
+      "title": "",
+      "body": "",
+      "owner": "",
+      "date": "",
+      "likes": 0,
+      "section": ""
+    },
+    {
+      "id": 8,
+      "title": "",
+      "body": "",
+      "owner": "",
+      "date": "",
+      "likes": 0,
+      "section": ""
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
+
